@@ -19,7 +19,7 @@ public class test8 {
 		 * где высчитывают деньги полученные на руки после вычета налога */
 	 double res= tax.calcTax2(1000, 35);
 		/*Заданное полученное значение*/
-	 double toch=65.0;
+	 double toch=650.0;
 		/*Сравнивают высчитанное методом calcTax2 и заранее заданное значение */
 	 assertEquals(Double.toString(res),Double.toString(toch));
 	 }
